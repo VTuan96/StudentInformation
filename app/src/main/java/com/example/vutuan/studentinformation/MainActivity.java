@@ -106,7 +106,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             moreInformation=edtMoreInformation.getText().toString();
             if (checkInformation(v)==true){
                 final AlertDialog.Builder builder=new AlertDialog.Builder(this);
+                //title là tên tiêu đề của dialog
                 builder.setTitle("Thông tin cá nhân");
+                //message là nội dung tin cần hiển thị trong diaglog
                 builder.setMessage(name+"\r\n"+identityCard+"\r\n"+certificate+"\r\n"+ favorite+"\r\n"+
                                     "------------------------------------------------------\r\n"+
                                     "Thông tin bổ sung: \r\n"+ moreInformation+"\r\n"+

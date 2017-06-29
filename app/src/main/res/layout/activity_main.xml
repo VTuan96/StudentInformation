@@ -31,7 +31,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edtName"/>
+            android:id="@+id/edtName"
+            android:maxLines="1"/>
 
     </LinearLayout>
     <LinearLayout
@@ -51,7 +52,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:id="@+id/edtIdentityCard"/>
+            android:id="@+id/edtIdentityCard"
+            android:maxLength="9"/>
 
     </LinearLayout>
     <TextView
@@ -140,9 +142,10 @@
         android:textStyle="bold"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:padding="@dimen/size50dp"
-        android:id="@+id/edtMoreInformation"/>
+        android:id="@+id/edtMoreInformation"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
